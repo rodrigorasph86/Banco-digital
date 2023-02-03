@@ -1,0 +1,51 @@
+.container00 {
+  &.container01{
+    background-image: url(../../images/image-topo.png);
+    
+    
+  }
+  &.container02{
+    background-image: url(../../images/) ;
+  }
+  &.container03{
+    background-image: url(../../images/image-carrousel02.jpg) ;
+  }
+  &.container04{
+    background-image: url(../../images/) ;
+  }
+}
+
+.titlePadding {
+  padding-top: 200px;
+  
+}
+
+.shortTitle {
+  width: 2000px;
+  margin-bottom: -25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -25px;
+}
+
+@media(max-width: 750px){
+  .titlePadding {
+    padding-top: 120px;
+  }
+
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+
+@media(max-width: 380px){
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 40px;
+  }
+}

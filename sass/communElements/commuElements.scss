@@ -1,0 +1,74 @@
+.header{
+  font-size: 12px;
+  font-weight: bold;
+
+  #navItem{
+    &:hover {
+      color: $link-hover;
+    }
+  }
+}
+
+.container00{
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  
+}
+
+.logoPc{
+  width: 130px;
+  margin-left: -10px;
+  margin-right: 20px;
+}
+
+.btnLogin{
+  margin-left: 800px;
+  
+}
+#button {
+  padding: $padding-button;
+}
+
+.footer{
+  background-color: #000;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: $link-hover;
+    }
+  }
+  .copyRodrigoCoin {
+    color: $copy-color;
+  }
+
+}
+
+// Responsividade Media Query
+
+@media (max-width: 405px){
+  .logoPc{
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer{
+    font-size: 10px ;
+  }
+}
+
+@media (max-width: 350px){
+  .logoPc{
+    width: 150px;
+    margin-top: 15px;
+  }
+}
