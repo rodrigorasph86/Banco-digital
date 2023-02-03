@@ -5,13 +5,13 @@
     
   }
   &.container02{
-    background-image: url(../../images/) ;
+    background-image: url(../../images/fundo-azul1.jpg) ;
   }
   &.container03{
     background-image: url(../../images/image-carrousel02.jpg) ;
   }
   &.container04{
-    background-image: url(../../images/) ;
+    background-image: url(.) ;
   }
 }
 
@@ -24,7 +24,9 @@
   width: 2000px;
   margin-bottom: -25px;
 }
-
+.segundoContainer {
+  margin-top: 80px;
+}
 .mediumTitle {
   width: 650px;
   margin-bottom: -25px;

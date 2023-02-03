@@ -71,13 +71,13 @@
   background-image: url(../../images/image-topo.png);
 }
 .container00.container02 {
-  background-image: url(../../images/);
+  background-image: url(../../images/fundo-azul1.jpg);
 }
 .container00.container03 {
   background-image: url(../../images/image-carrousel02.jpg);
 }
 .container00.container04 {
-  background-image: url(../../images/);
+  background-image: url(.);
 }
 
 .titlePadding {
@@ -87,6 +87,10 @@
 .shortTitle {
   width: 2000px;
   margin-bottom: -25px;
+}
+
+.segundoContainer {
+  margin-top: 80px;
 }
 
 .mediumTitle {
